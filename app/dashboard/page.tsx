@@ -22,6 +22,7 @@ export default function Dashboard() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    
     const getUser = async () => {
       const {
         data: { user },
@@ -203,3 +204,7 @@ export default function Dashboard() {
     </div>
   );
 }
+
+
+
+
